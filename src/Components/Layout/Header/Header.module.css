@@ -1,0 +1,75 @@
+.Header{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+.TopHeader{
+    height: 30%;
+    width: 100%;
+    background-color: #af2d16;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+}
+.BottomHeader{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.LeftBody{
+    width: 20%;
+    height: 100%;
+    justify-content: center;
+}
+
+.CollegeLogo{
+    background-image: url('../../../Assets/logo_transparent.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+.RightBody{
+height: 100%;
+width: 55%;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+align-content: center;
+}
+.TopRightBody{
+height: 100%;
+width: 50%;
+margin-left: 50%;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+}
+.MenuText{
+    width: fit-content;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 1rem;
+    color: black;
+    cursor: pointer;
+}
+.ExtraText{
+    width: fit-content;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #FFFFFF;
+}
