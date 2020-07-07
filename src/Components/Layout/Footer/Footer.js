@@ -1,8 +1,5 @@
 import React from 'react'
 import classes from './Footer.module.css'
-import ReactWeather from 'react-open-weather';
-import 'react-open-weather/lib/css/ReactWeather.css';
-import Map from '../../Map/';
 
 const Footer=()=>{
     return(
@@ -56,12 +53,6 @@ const Footer=()=>{
             </div>
             <div className={classes.BottomFooter}>
                 <div className={classes.BottomLeft}>
-                    {/* <ReactWeather
-                        forecast="today"
-                        apikey="4edab637276b9942a195e126a2c2cb8f"
-                        type="city"
-                        city="Munich"
-                    /> */}
                     Display current weather
                 </div>
                 <div className={classes.BottomCenter}>
